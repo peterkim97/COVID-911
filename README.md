@@ -37,7 +37,7 @@ Main H/Ws are
 * Raspberry Monitor
 
 
--NVIDIA Xavier AGX will be used as a main board with Ubuntu 18.04 Linux environment. 
+-NVIDIA Xavier AGX will be used as a main board with Ubuntu 18.04 Linux environment.   
 -VLP-16 LiDAR will be used for SLAM.   
 -Upper Camera will be used for mask detection.   
 -Lower Camera and 2D LiDAR will be used for collision avoidance and to detect people.   
