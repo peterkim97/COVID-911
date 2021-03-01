@@ -61,6 +61,8 @@ It detects whether people have wore a mask properly or not.
 #Lower Camera and 2D LiDAR
 It stops when the camera detects people's foot, otherwise if it's just an obstacle or a wall, it executes collision-avoidance self driving.   
 
+For mask detection, we forked codes from pyimagesearch's face detection and modified it.
+For foot detection, we also forked codes from jetbot and modified it.
 
 
 
