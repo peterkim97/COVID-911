@@ -43,17 +43,7 @@ Main H/Ws are
 -Lower Camera and 2D LiDAR will be used for collision avoidance and to detect people.   
 -Theremal Camera will be used to detect people's temperature.   
 -Monitor will display if people are wearing mask or not and sound an alarm when at least one person is not wearing a mask.   
--CUDA, Jetpack4.3, PyTorch, Tensorflow used
-
-
-#SLAM with VLP16 LiDAR   
-We used BLAM(Berkley Localization and Mapping) for slam which has a loop closure.   
-<img width="752" alt="스크린샷 2021-01-05 오후 3 32 41" src="https://user-images.githubusercontent.com/66055313/103614195-6173b500-4f6b-11eb-9c5f-11b3cda6808d.png">   
-
-#We used Autoware for self-driving   
-Used pcd map file created with BLAM.   
-Ndt Matching for Localization.   
-Test Video Link : https://youtu.be/gTM9PTE23JQ   
+-CUDA, Jetpack4.3, PyTorch, Tensorflow used     
 
 #Upper Camera   
 It detects whether people have wore a mask properly or not.   
@@ -61,8 +51,14 @@ It detects whether people have wore a mask properly or not.
 #Lower Camera and 2D LiDAR
 It stops when the camera detects people's foot, otherwise if it's just an obstacle or a wall, it executes collision-avoidance self driving.   
 
+#SLAM with VLP16 LiDAR   
+We used BLAM(Berkley Localization and Mapping) for slam which has a loop closure.   
+<img width="752" alt="스크린샷 2021-01-05 오후 3 32 41" src="https://user-images.githubusercontent.com/66055313/103614195-6173b500-4f6b-11eb-9c5f-11b3cda6808d.png">   
+
+#We also used Autoware for Autnomous Driving with 3D LiDAR  
+Used pcd map file created with BLAM.   
+Ndt Matching for Localization.   
+Test Video Link : https://youtu.be/gTM9PTE23JQ 
+
 For mask detection, we forked codes from pyimagesearch's face detection and modified it.
 For foot detection, we also forked codes from jetbot and modified it.
-
-
-
