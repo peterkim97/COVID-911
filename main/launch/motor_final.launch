@@ -1,0 +1,6 @@
+<launch>
+ <include file = "$(find hls_lfcd_lds_driver)/launch/hlds_laser.launch">
+ </include>
+
+ <node pkg = "motor_final" type = "motor_distance" name = "MOTOR_RUN" />
+</launch>
