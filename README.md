@@ -1,6 +1,4 @@
 # COVID-911
-
-# Hancom_eoeo
   
 
 Project Name:COVID-911   
