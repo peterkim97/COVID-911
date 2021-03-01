@@ -61,9 +61,6 @@ It detects whether people have wore a mask properly or not.
 #Lower Camera and 2D LiDAR
 It stops when the camera detects people's foot, otherwise if it's just an obstacle or a wall, it executes collision-avoidance self driving.   
 
-#Simple flow chart for our algorithm   
-<img width="257" alt="스크린샷 2020-10-26 오후 3 11 40" src="https://user-images.githubusercontent.com/66055313/97139333-a0cc9b00-179d-11eb-8dbb-c52e0b0fe7b6.png">
-
 
 
 
